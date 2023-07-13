@@ -9,7 +9,8 @@ Tutoriel pour la création d'un NAS (Network Attached Storage) maison.
 _Je vous conseille un petit SSD pour l'installation de votre système et un HDD de grande capacité pour vos données._
 
 # 1) Installation d'OpenMediaVault (OMV)
-Il s'agit d'une solution "clé en main" pour la création d'un NAS personnel, il existe d'autre solution comme TrueNAS par exemple.
+Il s'agit d'une solution _"clés en mains"_ pour la création d'un NAS personnel (il existe d'autre solution comme TrueNAS par exemple).
+https://www.openmediavault.org/
   ### A) Installation sur un ordinateur de bureau.
   ### B) Installation sur un Raspberry PI 4.
 
