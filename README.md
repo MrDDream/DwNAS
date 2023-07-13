@@ -23,5 +23,3 @@ Permet la mise en place de container permettant pas mal de choses, notamment la 
 
 # 4) Création de container via Portainer
 Quelques explications sur l'utilisation de Portainer et Docker-compose.
-
-## test
