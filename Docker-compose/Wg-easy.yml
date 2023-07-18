@@ -1,0 +1,23 @@
+version: '3.9'
+services:
+    wg-easy:
+        image: weejewel/wg-easy:latest
+        container_name: WireGuard
+        labels:
+            - com.centurylinklabs.watchtower.enable=true #Label pour mise à jour automatique avec watchtower.
+        restart: unless-stopped
+        sysctls:
+            - net.ipv4.ip_forward=1
+            - net.ipv4.conf.all.src_valid_mark=1
+        cap_add:
+            - SYS_MODULE
+            - NET_ADMIN
+        ports:
+            - 51821:51821/tcp
+            - 51820:51820/udp
+        volumes:
+            - ./WireGuard:/etc/wireguard #Renseignez le dossier où vous souhaitez que votre configuration se trouve.
+        environment:
+            - PASSWORD=pasword #Mot de passe pour accès Web.
+            - WG_HOST=name.duckdns.org #Adresse duckdns.org pour que votre IP soit toujours accessible.
+        
