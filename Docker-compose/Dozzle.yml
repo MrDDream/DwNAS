@@ -4,7 +4,7 @@ services:
     image: amir20/dozzle:latest
     container_name: Dozzle
     labels:
-      - com.centurylinklabs.watchtower.enable=true
+      - com.centurylinklabs.watchtower.enable=true #Label pour mise à jour automatique avec watchtower
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:/var/run/docker.sock
     ports:

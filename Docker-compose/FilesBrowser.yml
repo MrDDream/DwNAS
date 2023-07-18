@@ -1,0 +1,17 @@
+version: "3"
+services:
+  filebrowser:
+    image: hurlenko/filebrowser:latest
+    container_name: FileBrowser
+    labels:
+      - com.centurylinklabs.watchtower.enable=true #Label pour mise à jour automatique avec watchtower.
+    user: PUID:PGID #Renseignez votre PUID & PGID
+    ports:
+      - 8080:8080 #Vous pouvez remplacer le premier 8080 par le port de votre choix.
+    volumes:
+      - ./Filebrowser:/config #Renseignez le dossier où vous souhaitez que votre configuration se trouve.
+      - ./Dossier1:/Dossier1  #Renseignez les dossiers que vous voulez voir sur la page WEB
+      - ./Dossier2:/Dossier2
+    environment:
+      - FB_BASEURL=/filebrowser
+    restart: always
