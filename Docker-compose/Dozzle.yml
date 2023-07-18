@@ -3,6 +3,8 @@ services:
   dozzle:
     image: amir20/dozzle:latest
     container_name: Dozzle
+    labels:
+      - com.centurylinklabs.watchtower.enable=true
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock:/var/run/docker.sock
     ports:
