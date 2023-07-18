@@ -1,0 +1,18 @@
+version: "3"
+services:
+  watchtower:
+    image: containrrr/watchtower:latest
+    container_name: Watchtower
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+    environment:
+      - TZ=Europe/PAris
+      - WATCHTOWER_DEBUG=true
+      - WATCHTOWER_TRACE=true
+      - WATCHTOWER_CLEANUP=true
+      - WATCHTOWER_NOTIFICATIONS=gotify                             #Type de notification.
+      - WATCHTOWER_NOTIFICATION_GOTIFY_URL=http://192.168.1.1:8080  #Adresse du serveur Gotify.
+      - WATCHTOWER_NOTIFICATION_GOTIFY_TOKEN=Az4iHilNhO69HOM        #Apps TOKEN Gotify.
+      - WATCHTOWER_NOTIFICATION_GOTIFY_TLS_SKIP_VERIFY=true         #Skip TLS si pas présent.
+
+      #Les notifcations de sont pas obligatoire, vous pouvez très bien, retirer les WATCHTOWER_NOTIFCATION.
