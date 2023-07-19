@@ -14,6 +14,7 @@
    * Configuré le Wi-Fi (pas nécessaire si vous comptez brancher votre RPI en filaire)
    * Définir les réglages locaux (Fuseau horaire Europe/Paris et type de clavier FR pour l'AZERTY)
 7. Cliquez sur **"Ecrire"** et patientez.
+8. Insérez votre microSD et branchez votre Raspberry Pi.
 
 ## Installation du système :
 
