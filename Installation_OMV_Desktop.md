@@ -47,4 +47,4 @@ Ouvrez un navigateur internet (ex: Google Chrome) et tapez l'adresse indiqué (p
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/OMV_GUI.png)
 
-Vous pouvez ensuite allez dans la partie **"Utilisateur"** et crée un compte à votre nom, il faudra penser à mettre en groupe ***"openmediavault-admin'***
+Vous pouvez ensuite allez dans la partie **"Utilisateur"** et crée un compte à votre nom, il faudra penser à mettre en groupe ***"openmediavault-admin"***
