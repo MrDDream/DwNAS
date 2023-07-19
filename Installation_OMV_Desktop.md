@@ -17,3 +17,17 @@ Si tout ce passe bien vous devriez voir cette écran :
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Ecran_install_omv_desktop.png)
 
+1. Faites **"Entrée"** pour lancer l'installation.
+2. Sélectionnez votre Langue
+3. Sélectionnez votre Pays
+4. Sélectionnez la dispostion de votre Clavier (Français = AZERTY, Anglais = QWERTY)
+
+*Suite à cela, vous allez avoir quelques barres de chargements qui vérifie vos données d'installation ainsi que la connectivité réseau.*
+
+6. Pour le **"Nom de machine"**, renseignez un nom pour vous (c'est le nom avec lequel il apparaîtra sur votre réseau).
+7. Pour le **"Domaine"** laissez *"local"* par défaut.
+8. Pour le mot de passe **superutilisateur** (ou root), renseignez un mot de passe assez complexe, il s'agit du mot de passe "administrateur" de votre machine.
+9. Confirmez votre mot de passe **root**
+
+*Puis patientez l'installation est en cours.*
+
