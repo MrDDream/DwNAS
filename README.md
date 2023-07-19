@@ -13,7 +13,7 @@ Il s'agit d'une solution _"clés en mains"_ pour la création d'un NAS personnel
 
 _Leur site officiel: https://www.openmediavault.org/_
   ### [A) Installation sur un ordinateur de bureau.](https://github.com/MrDDream/Home_NAS/blob/main/Installation_OMV_Desktop.md)
-  ### B) Installation sur un Raspberry PI 4.
+  ### [B) Installation sur un Raspberry PI 4.](https://github.com/MrDDream/Home_NAS/blob/main/Installation_OMV_RaspberryPi.md)
 
 # 2) Mise en place SAMBA (Partage de fichiers)
 Permet la création de dossiers partagés entre votre NAS et vos apparails (Windows, Android etc...).
