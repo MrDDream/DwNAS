@@ -18,3 +18,6 @@
 
 ## Installation du système :
 
+Connectez-vous à votre Raspberry avec le nom d'utilisateur et mot de passe renseigner à l'étape 6, puis tapez les commandes suivantes :
+
+`sudo apt update && sudo apt upgrade`
