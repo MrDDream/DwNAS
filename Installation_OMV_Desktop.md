@@ -31,3 +31,8 @@ Si tout ce passe bien vous devriez voir cette écran :
 
 *Puis patientez l'installation est en cours.*
 
+10. **"Configurer l'outil de gestion des paquets"**, sélectionnez ***"France"*** puis ***"deb.debian.org"*** (dépôt officiel).
+11. Laissez la partie ***"Mendataire HTTP"*** vide et continuez.
+
+*Patientiez l'installation continue*
+
