@@ -41,3 +41,5 @@ Ouvrez un navigateur internet (ex: Google Chrome) sur votre PC et renseignez l'a
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/OMV_GUI.png)
 
 Pour utiliser votre compte précédemment crée comme administrateur d'OMV, allez dans la partie **"Utilisateur"** et modifié votre compte en ajoutant le groupe ***"openmediavault-admin"***
+
+Vous trouverez la suite de la configuration [ICI](https://github.com/MrDDream/Home_NAS/blob/main/README.md)
