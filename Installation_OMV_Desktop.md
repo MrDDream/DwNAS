@@ -35,3 +35,8 @@ Après redémarrage votre écran devrez ressembler à ça : (l'encadré rouge co
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Ecran_install_omv_desktop_final.png)
 
+## Première connexion :
+
+Ouvrez un navigateur internet (ex: Google Chrome) et tapez l'adresse indiqué (pour moi, il s'agit de 192.168.1.33), vous devriez arriver sur cette page :
+
+
