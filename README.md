@@ -12,7 +12,7 @@ _Je vous conseille un petit SSD pour l'installation de votre système et un HDD 
 Il s'agit d'une solution _"clés en mains"_ pour la création d'un NAS personnel (il existe d'autre solution comme TrueNAS par exemple).
 
 _Leur site officiel: https://www.openmediavault.org/_
-  ### A) Installation sur un ordinateur de bureau.
+  ### A) [Installation sur un ordinateur de bureau.](https://github.com/MrDDream/Home_NAS/blob/main/test)
   ### B) Installation sur un Raspberry PI 4.
 
 # 2) Mise en place SAMBA (Partage de fichiers)
