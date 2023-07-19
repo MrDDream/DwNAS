@@ -39,6 +39,10 @@ Après redémarrage votre écran devrez ressembler à ça : (l'encadré rouge co
 
 Ouvrez un navigateur internet (ex: Google Chrome) et tapez l'adresse indiqué (pour moi, il s'agit de 192.168.1.33), vous devriez arriver sur cette page :
 
+**Nom d'utilisateur :** admin
+
+**Mot de passe :** openmediavault
+
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/OMV_GUI.png)
 
 
