@@ -21,18 +21,17 @@ Si tout ce passe bien vous devriez voir cette écran :
 2. Sélectionnez votre Langue
 3. Sélectionnez votre Pays
 4. Sélectionnez la dispostion de votre Clavier (Français = AZERTY, Anglais = QWERTY)
+5. Pour le **"Nom de machine"**, renseignez un nom pour vous (c'est le nom avec lequel il apparaîtra sur votre réseau).
+6. Pour le **"Domaine"** laissez *"local"* par défaut.
+7. Pour le mot de passe **superutilisateur** (ou root), renseignez un mot de passe assez complexe, il s'agit du mot de passe "administrateur" de votre machine.
+8. Confirmez votre mot de passe **root**
+9. **"Configurer l'outil de gestion des paquets"**, sélectionnez ***"France"*** puis ***"deb.debian.org"*** (dépôt officiel).
+10. Laissez la partie ***"Mendataire HTTP"*** vide et continuez.
+11. Pour l'installation du ***"GRUB"*** sélectionnez le disque où est installé votre système.
 
-*Suite à cela, vous allez avoir quelques barres de chargements qui vérifie vos données d'installation ainsi que la connectivité réseau.*
+Vous devriez maintenant être sur l'écran ***"Terminer l'installation"*** faites **"Continuer"** votre machine va redémarrer.
 
-6. Pour le **"Nom de machine"**, renseignez un nom pour vous (c'est le nom avec lequel il apparaîtra sur votre réseau).
-7. Pour le **"Domaine"** laissez *"local"* par défaut.
-8. Pour le mot de passe **superutilisateur** (ou root), renseignez un mot de passe assez complexe, il s'agit du mot de passe "administrateur" de votre machine.
-9. Confirmez votre mot de passe **root**
+Après redémarrage votre écran devrez ressembler à ça : (l'encadré rouge correspond à l'adresse IP actuelle de votre machine)
 
-*Puis patientez l'installation est en cours.*
-
-10. **"Configurer l'outil de gestion des paquets"**, sélectionnez ***"France"*** puis ***"deb.debian.org"*** (dépôt officiel).
-11. Laissez la partie ***"Mendataire HTTP"*** vide et continuez.
-
-*Patientiez l'installation continue*
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Ecran_install_omv_desktop_final.png)
 
