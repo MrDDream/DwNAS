@@ -14,4 +14,5 @@ Pour commencer branchez votre clé USB sur le PC qui va acceuillir le NAS, allum
 *Si vous rencontrez des difficultés pour boot sur votre clé USB, vérifiez que le ***Secure Boot*** n'est pas activé sur votre machine.*
 
 Si tout ce passe bien vous devriez voir cette écran :
+![image](https://github.com/MrDDream/Home_NAS/images/Ecran_install_omv_desktop)
 
