@@ -20,4 +20,24 @@
 
 Connectez-vous à votre Raspberry avec le nom d'utilisateur et mot de passe renseigner à l'étape 6, puis tapez les commandes suivantes :
 
-`sudo apt update && sudo apt upgrade`
+Vérifiez et mettre à jour votre RPI :
+```
+sudo apt update && sudo apt upgrade
+```
+Copiez la commande pour lancer le script d'installation d'OMV avec ses dépendances et OMV-extras :
+```
+wget -O - https://github.com/OpenMediaVault-Plugin-Developers/installScript/raw/master/install | sudo bash
+```
+Après cela votre Raspberry PI redémarrera à la fin du démarrage vous devriez voir cela :
+
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Ecran_install_omv_desktop_final.png)
+
+Ouvrez un navigateur internet (ex: Google Chrome) sur votre PC et renseignez l'adresse IP (ici encadré en rouge), vous devriez arriver sur cette page:
+
+**Nom d'utilisateur :** admin
+
+**Mot de passe :** openmediavault
+
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/OMV_GUI.png)
+
+Pour utiliser votre compte précédemment crée comme administrateur d'OMV, allez dans la partie **"Utilisateur"** et modifié votre compte en ajoutant le groupe ***"openmediavault-admin"***
