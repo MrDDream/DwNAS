@@ -20,3 +20,18 @@
 5. Cliquez sur **"Enregister"**
 
 Si tout c'est bien passer vous devriez voir ça :
+
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Montage_OMV_HDD.png)
+
+## Crée ses premiers dossiers partagés :
+
+1. Allez dans le menu **"Stockage"** puis **"Dossiers partagés"**.
+2. Cliquez sur le petit **"+"**
+3. Vous avez maintenant plusieurs champs à renseigner :
+   * **Nom** : le nom de votre partage, c'est pour vous reperez sur OMV.
+   * **Système de fichiers** : votre disque monté précédemment.
+   * **Chemin relatif** : le chemin de votre dossier partagé (exemple: Dossier1/, si vous compter crée un partage dans un partage, cela fera Dossier1/Dossier2/).
+   * **Permissions** : selon votre besoin et qui y accède.
+   * **Commentaire** : sans commentaire
+  
+4. Cliquez sur **"Enregistrer"**.
