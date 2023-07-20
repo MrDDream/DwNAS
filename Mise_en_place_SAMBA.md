@@ -35,3 +35,6 @@ Si tout c'est bien passer vous devriez voir ça :
    * **Commentaire** : sans commentaire
   
 4. Cliquez sur **"Enregistrer"**.
+
+Cela devrait ressembler à ça :
+
