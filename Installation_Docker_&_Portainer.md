@@ -35,4 +35,15 @@ Docker est maintenant installer et vous pouvez désormer utilisé les commandes 
 
 ## Installation de Portainer :
 
+1. Création d'un **"volume"** pour Portainer (son stockage):
+```
+docker volume create portainer_data
+```
+2. Création du container Portainer:
+```
+docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
+```
+3. Ouvrez un navigateur Web et tapez **"https://192.168.1.X:9443"**, vous devriez tomber sur cette page :
+
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Portainer_first.png)
 
