@@ -46,3 +46,12 @@ Cela devrait ressembler à ça :
 2. Cliquez sur le petit **"+"**.
 3. Sélectionnez votre dossier précédemment crée dans **"Shared folder"** (je vous invite à cochez "Hériter les autorisations").
 4. Cliquez sur **"Enregistrer"**.
+5. Dans votre explorateur de fichier faites un clique droit sur **"Ce PC"** et cliquez sur **"Connecter un lecteur réseau..."**.
+
+6. Renseignez le chemin de votre dossier comme ceci **"\\\192.168.1.X\VotreDossier"**.
+
+Si tout est bon vous aurez cela dans **"Ce PC"** :
+   
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Lecteur_reseau_OMV.png)
+
+Vous pouvez maitenant passez à l'installation de Docker & Portainer ICI.
