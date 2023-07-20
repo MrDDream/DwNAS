@@ -53,5 +53,5 @@ Vous devriez arriver sur la page **"Home"** de Portainer comme cela :
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Portainer_home.png)
 
-Félictation vous pouvez maintenant passez à l'étape concernant la création de Container [ICI](https://github.com/MrDDream/Home_NAS/blob/main/Creation_container_via_portainer.md).
+Félictation vous pouvez maintenant passez à l'étape concernant la création de Container [ICI](https://github.com/MrDDream/Home_NAS/blob/main/Creation_container_via_portainer.md)
 
