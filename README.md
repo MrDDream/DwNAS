@@ -12,10 +12,10 @@ _Je vous conseille un petit SSD pour l'installation de votre système et un HDD 
 Il s'agit d'une solution _"clés en mains"_ pour la création d'un NAS personnel (il existe d'autre solution comme TrueNAS par exemple).
 
 _Leur site officiel: https://www.openmediavault.org/_
-  ### [A) Installation sur un ordinateur de bureau.](https://github.com/MrDDream/Home_NAS/blob/main/Installation_OMV_Desktop.md)
-  ### [B) Installation sur un Raspberry PI 4.](https://github.com/MrDDream/Home_NAS/blob/main/Installation_OMV_RaspberryPi.md)
+ > ### [A) Installation sur un ordinateur de bureau.](Installation_OMV_Desktop.md)
+ > ### [B) Installation sur un Raspberry PI 4.](https://github.com/MrDDream/Home_NAS/blob/main/Installation_OMV_RaspberryPi.md)
 
-# [2) Création du système de fichiers et mise en place du SAMBA](https://github.com/MrDDream/Home_NAS/blob/main/Mise_en_place_SAMBA.md)
+# 2) Création du système de fichiers et mise en place du SAMBA
 Permet la création de dossiers partagés entre votre NAS et vos apparails (Windows, Android etc...).
 
 # 3) Installation de Docker & Portainer
