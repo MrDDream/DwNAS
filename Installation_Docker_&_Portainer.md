@@ -47,3 +47,11 @@ docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /va
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Portainer_first.png)
 
+4. Renseignez l'identifiant et le mot de passe que vous souhaitez.
+
+Vous devriez arriver sur la page **"Home"** de Portainer comme cela :
+
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Portainer_home.png)
+
+Félictation vous pouvez maintenant passez à l'étape concernant la création de Container ICI.
+
