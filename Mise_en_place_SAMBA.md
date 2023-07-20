@@ -1,13 +1,5 @@
  # Mise en place SAMBA (Partage de fichiers) :
 
- ## Activez le service SAMBA :
-
- 1. Connectez-vous à la page Web de votre OpenMediaVault (http://192.168.X.X).
- 2. Allez dans **"Services"** puis **"SMB/CFIS"**.
- 3. Dans **"Paramètres"** sélectionnez **"Activé"** (Vous pouvez aussi activer les répertoires personnels et la corbeille).
-
- 4. Puis cliquez sur **"Enregistrer"** en bas à droite de la page.
-
 ## Crée votre "système de fichiers" :
 
 1. Allez dans le menu **"Stockage"** puis **"Systèmes de fichiers"**.
@@ -23,7 +15,7 @@ Si tout c'est bien passer vous devriez voir ça :
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Montage_OMV_HDD.png)
 
-## Crée ses premiers dossiers partagés :
+## Crée votre premier dossier partagé :
 
 1. Allez dans le menu **"Stockage"** puis **"Dossiers partagés"**.
 2. Cliquez sur le petit **"+"**
@@ -38,3 +30,19 @@ Si tout c'est bien passer vous devriez voir ça :
 
 Cela devrait ressembler à ça :
 
+![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Creation_share.png)
+
+ ## Activez le service SAMBA :
+
+ 1. Connectez-vous à la page Web de votre OpenMediaVault (http://192.168.X.X).
+ 2. Allez dans **"Services"** puis **"SMB/CFIS"**.
+ 3. Dans **"Paramètres"** sélectionnez **"Activé"** (Vous pouvez aussi activer les répertoires personnels et la corbeille).
+
+ 4. Puis cliquez sur **"Enregistrer"** en bas à droite de la page.
+
+## Crée votre premier partage SAMBA :
+
+1. Allez dans **"Services"** puis **"SMB/CFIS"** et enfin **"Partages"**.
+2. Cliquez sur le petit **"+"**.
+3. Sélectionnez votre dossier précédemment crée dans **"Shared folder"** (je vous invite à cochez "Hériter les autorisations").
+4. Cliquez sur **"Enregistrer"**.
