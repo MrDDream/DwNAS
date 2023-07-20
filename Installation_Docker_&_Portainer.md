@@ -43,7 +43,7 @@ docker volume create portainer_data
 ```
 docker run -d -p 8000:8000 -p 9443:9443 --name portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer-ce:latest
 ```
-3. Ouvrez un navigateur Web et tapez **"https://192.168.1.X:9443"**, vous devriez tomber sur cette page :
+3. Ouvrez un navigateur Web et tapez "https://192.168.1.X:9443" (renseignez votre IP), vous devriez tomber sur cette page :
 
 ![image](https://github.com/MrDDream/Home_NAS/blob/main/Images/Portainer_first.png)
 
